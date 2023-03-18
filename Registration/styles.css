@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(112, 51, 97);
+}
+#registration-form {
+  background-color: rgb(128, 30, 103);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid rgb(128, 30, 103);
+  border-radius: 10px;
+  max-width: 600px;
+}
+.in {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #444;
+}
+.gen {
+  margin-top: 7px;
+  margin-right: 75px;
+  padding: 10px;
+  color: #000;
+}
+label {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-right: 7px;
+  color: rgb(27, 3, 22);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #444;
+}
+input[type="submit"] {
+  margin: 20px 0 0;
+  padding: 10px;
+  background-color: #9c1679;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+input[type="submit"]:hover {
+  background-color: #b2219a;
+}
+#output {
+  display: none;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid rgb(128, 30, 103);
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: rgb(128, 30, 103);
+}
+h2 {
+  margin-top: 0;
+}
